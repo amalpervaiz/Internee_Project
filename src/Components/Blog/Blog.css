@@ -1,0 +1,132 @@
+.Blog{
+    background-color: #F3F4F6;
+    padding: 40px 0px;
+    width: 100%;
+    align-items: center;
+}
+.main_div_blog{
+    padding: 16px;
+    display: flex;
+    margin-left: 45px;
+}
+.blog_p{
+    color: #374151;
+    font-size: 18px;
+    text-align: center;
+}
+.blog_h{
+    color: #111827;
+    font-size: 24px;
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+.sub_blog_div{
+    width: 320px;
+    background-color: #FFFFFF;
+    padding: 16px;
+    margin: 0px 0px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 6px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin-right: 20px ; 
+    
+}
+.sub_blog_img{
+    width: 100%;
+  
+}
+.sub_blog_h{
+    font-size: 24px;
+    color: #111827;
+    padding: 16px 0px;
+}
+.sub_blog_p{
+    font-size: 18px;
+    color: #374151;
+    padding: 8px 0px;
+}
+@media (max-width: 950px){
+    .main_div_blog{
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 45px;
+    }
+    .blog_p{
+        font-size: 17px;
+    }
+    .blog_h{
+        font-size: 22px;
+    }
+    .sub_blog_div{
+        width: 310px;
+        padding: 14px;
+        margin: 0px 0px 14px;
+        margin-right: 18px ;
+    }
+    .sub_blog_h{
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+    .sub_blog_p{
+        font-size: 15px;
+        padding: 8px 0px;
+    }
+}
+
+@media (max-width: 750px){
+    .main_div_blog{
+        padding: 13px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 36px;
+    }
+    .blog_p{
+        font-size: 17px;
+    }
+    .blog_h{
+        font-size: 22px;
+    }
+    .sub_blog_div{
+        width: 260px;
+        padding: 14px;
+        margin: 0px 0px 14px;
+        margin-right: 18px ;
+    }
+    .sub_blog_h{
+        font-size: 17px;
+        padding: 15px 0px;
+    }
+    .sub_blog_p{
+        font-size: 13px;
+        padding: 8px 0px;
+    }
+}
+
+@media (max-width: 635px){
+    .main_div_blog{
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 45px;
+    }
+    .blog_p{
+        font-size: 17px;
+    }
+    .blog_h{
+        font-size: 22px;
+    }
+    .sub_blog_div{
+        width: 100%;
+        padding: 14px;
+        margin: 0px 0px 14px;
+        margin-right: 18px ;
+    }
+    .sub_blog_h{
+        font-size: 24px;
+        padding: 15px 0px;
+    }
+    .sub_blog_p{
+        font-size: 18px;
+        padding: 8px 0px;
+    }
+}

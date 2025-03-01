@@ -1,0 +1,160 @@
+
+.sub_img{
+    width: 350px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.main_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 48px 128px 16px;
+}
+.sub_div{
+    background-color: #FFFFFF;
+    margin: 16px;
+    padding: 0px 0px 16px;
+    border-radius: 0px 0px 11px 11px ;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+}
+.sub_btn{
+   text-align: end;
+}
+.skill_btn{
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 12px 24px;
+}
+.subH2{
+    color: #21282E;
+    font-size: 20px;
+    margin: 0px 8px;
+    padding: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+.sub_btn_last{
+    width: 100%;
+    text-align: center;
+}
+.arrow{
+    width: 20px;
+    margin: 0px 0px 0px 8px;
+}
+@media (max-width: 1030px){
+    .sub_img{
+        width: 300px;
+    }
+    .skill_btn{
+        font-size: 13px;
+        border-radius: 5px;
+        padding: 8px 18px;
+        margin: 10px 20px;
+    }
+    .subH2{
+        font-size: 16px;
+        margin: 0px 7px;
+        padding: 7px;
+    }
+    .sub_div{
+        width: 300px;
+    }
+}
+@media (max-width: 1000px){
+    .sub_img{
+        width: 270px;
+    }
+    .skill_btn{
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 8px 18px;
+        margin: 10px 20px;
+    }
+    .subH2{
+        font-size: 17px;
+        margin: 0px 7px;
+        padding: 7px;
+    }
+    .sub_div{
+        width: 270px;
+    }
+}
+@media (max-width: 977px){
+    .sub_img{
+        width: 240px;
+    }
+    .skill_btn{
+        font-size: 13px;
+        border-radius: 5px;
+        padding: 7px 14px;
+        margin: 8px 18px;
+    }
+    .subH2{
+        font-size: 15px;
+        margin: 0px 6px;
+        padding: 6px;
+    }
+    .sub_div{
+        width: 240px;
+    }
+}
+@media (max-width: 816px){
+    .sub_img{
+        width: 190px;
+    }
+    .skill_btn{
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 6px 13px;
+        margin: 7px 15px;
+    }
+    .subH2{
+        font-size: 14px;
+        margin: 0px 5px;
+        padding: 5px;
+    }
+    .sub_div{
+        width: 190px;
+    }
+}
+
+@media (max-width: 719px){
+    .sub_img{
+        width: 150px;
+    }
+    .skill_btn{
+        font-size: 11px;
+        border-radius: 5px;
+        padding: 6px 12px;
+        margin: 6px 13px;
+    }
+    .subH2{
+        font-size: 12px;
+        margin: 0px 5px;
+        padding: 5px;
+    }
+    .sub_div{
+        width: 150px;
+    }
+}
+
+@media (max-width: 635px){
+    .sub_img{
+        width: 100%;
+    }
+    .skill_btn{
+        font-size: 13px;
+        border-radius: 5px;
+        padding: 7px 14px;
+        margin: 8px 18px;
+    }
+    .subH2{
+        font-size: 15px;
+        margin: 0px 6px;
+        padding: 6px;
+    }
+    .sub_div{
+        width: 100%;
+    }
+    .main_div{
+        margin: 10px 30px 5px;
+    }
+}

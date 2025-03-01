@@ -1,0 +1,129 @@
+.mainguid{
+    display: flex;
+    padding: 40px 100px;
+}
+.guidright{
+    width: 650px;
+   
+}
+.guidleft{
+    width: 694px;
+    padding: 8px 40px 8px 0px;
+}
+.guid_right_img{
+    width: 100%;
+    transition-duration: 5s;
+    transition: 2s;
+    transition-timing-function: linear;
+    /* margin-bottom: -400px; */
+    opacity: 1;
+}
+
+.sub_guid_task{
+    padding: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+.subguid{
+   width: 270px;
+   display: flex;
+}
+.sub_guid_p{
+    font-size: 14px;
+    color: #717275;
+    margin: 4px;
+}
+.guid_h2{
+    font-size: 24px;
+    color: #000000;
+}
+.guid_h1{
+    font-size: 48px;
+    color: #21282E;
+}
+.guid_p{
+    font-size: 20px;
+    color: #717275;
+    margin: 4px;
+}
+.guid_img{
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+   padding-top: 8px;
+}
+@media (max-width: 1150px){
+    .guidright{
+        width: 100%;
+    }
+    .mainguid{
+        padding: 40px 80px;
+    }
+    .guid_h2{
+        font-size: 20px;
+    }
+    .guid_h1{
+        font-size: 40px;
+    }
+    .guid_p{
+        font-size: 18px;
+        margin: 3px;
+    }
+    .sub_guid_p{
+        font-size: 13px;
+        margin: 4px;
+    }
+    .subguid{
+        width: 150px;
+     }
+}
+@media (max-width: 910px){
+    .guidright{
+        width: 100%;
+    }
+    .mainguid{
+        padding: 40px 80px;
+        flex-wrap: wrap;
+    }
+    .guid_h2{
+        font-size: 20px;
+    }
+    .guid_h1{
+        font-size: 40px;
+    }
+    .guid_p{
+        font-size: 18px;
+        margin: 3px;
+    }
+    .sub_guid_p{
+        font-size: 14px;
+        margin: 4px;
+    }
+    .subguid{
+        width: 280px;
+     }
+}
+@media (max-width: 800px){
+    .guidright{
+        width: 100%;
+    }
+    .mainguid{
+        padding: 40px 80px;
+    }
+    .guid_h2{
+        font-size: 20px;
+    }
+    .guid_h1{
+        font-size: 36px;
+    }
+  
+    .sub_guid_p{
+        font-size: 14px;
+        margin: 4px;
+    }
+    .subguid{
+        width: 100%;
+     }
+}

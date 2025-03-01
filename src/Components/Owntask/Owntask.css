@@ -1,0 +1,140 @@
+.maintask{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ownleft{
+    width: 650px;
+    margin-top: 200px;
+}
+.ownright{
+    width: 694px;
+    padding: 8px 0px 8px 40px;
+}
+.tast_img{
+    width: 100%;
+    transition-duration: 5s;
+    transition: 2s;
+    transition-timing-function: linear;
+    /* margin-bottom: -400px; */
+  
+}
+.tast_img:hover{
+    /* margin-bottom: 400px; */
+    opacity: 1;
+}
+.sub_own_task{
+    padding: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+.subtask{
+   width: 270px;
+   display: flex;
+}
+.sub_task_p{
+    font-size: 14px;
+    color: #717275;
+    margin: 4px;
+}
+.own_task_h2{
+    font-size: 24px;
+    color: #000000;
+}
+.own_task_h1{
+    font-size: 48px;
+    color: #21282E;
+}
+.own_task_p{
+    font-size: 20px;
+    color: #717275;
+    margin: 4px;
+}
+.own_img{
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+   padding-top: 8px;
+}
+@media (max-width: 1250px){
+    .maintask{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .ownleft{
+        width: 100%;
+        margin-top: 200px;
+    }
+    .own_task_h2{
+        font-size: 20px;
+    }
+    .own_task_h1{
+        font-size: 40px;
+    }
+    .own_task_p{
+        font-size: 17px;
+    }
+    .subtask{
+        width: 160px;
+     }
+     .sub_task_p{
+        font-size: 14px;
+        margin: 2px;
+    }
+}
+@media (max-width: 990px){
+    .maintask{
+        padding-left: 40px;
+        padding-right: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ownleft{
+        width: 100%;
+        margin-top: 200px;
+    }
+    .own_task_h2{
+        font-size: 16px;
+    }
+    .own_task_h1{
+        font-size: 33px;
+    }
+    .own_task_p{
+        font-size: 15px;
+    }
+    .subtask{
+        width: 300px;
+     }
+     .sub_task_p{
+        font-size: 14px;
+        margin: 2px;
+    }
+}
+@media (max-width: 765px){
+    .maintask{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .ownleft{
+        width: 100%;
+        margin-top: 200px;
+    }
+    .own_task_h2{
+        font-size: 16px;
+    }
+    .own_task_h1{
+        font-size: 33px;
+    }
+    .own_task_p{
+        font-size: 15px;
+    }
+    .subtask{
+        width: 100%;
+     }
+     .sub_task_p{
+        font-size: 14px;
+        margin: 4px;
+    }
+}

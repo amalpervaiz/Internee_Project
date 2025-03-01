@@ -1,0 +1,62 @@
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 3%;
+}
+.maincreate{
+    display: flex;
+}
+.createleft{
+    width: 650px;
+    margin-top: 200px;
+}
+.createright{
+    width: 694px;
+    padding: 8px 0px 8px 40px;
+}
+.create_img{
+    width: 100%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0%   { left:-300px; right:0px;}
+    25%  {left:0px; right:300px;}
+  }
+.sub_create{
+    padding: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+.subcreate_div{
+   width: 300px;
+   display: flex;
+   
+}
+.sub_create_p{
+    font-size: 14px;
+    color: #717275;
+    margin: 4px;
+}
+.create_h2{
+    font-size: 24px;
+    color: #000000;
+}
+.create_h1{
+    font-size: 48px;
+    color: #21282E;
+}
+.create_p{
+    font-size: 20px;
+    color: #717275;
+    margin: 4px;
+}
+.sub_create_img{
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+   padding-top: 8px;
+}

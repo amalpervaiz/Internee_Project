@@ -1,0 +1,185 @@
+.SayStd{
+    background-color: #F9FAFB;
+    padding: 80px 0px;
+    width: 100%;
+}
+.mainSay{
+    margin: 0px 125.6px;
+    padding: 32px;
+}
+.Sayheading{
+    padding: 0px 16px;
+    text-align: center;
+}
+.Sayh{
+    color: #111827;
+    font-size: 43px;
+    margin: 16px 0px 0px;
+}
+.Saypara{
+    color: #485563;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.subSay{
+    margin: 90px 0px;
+    background: linear-gradient(135deg, #8ec3ca, #91daa9, #e1bee7, #7746a1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 30px; 
+    padding: 20px; 
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(30, 139, 35, 0.2), 0 3px 6px 0 rgba(195, 8, 8, 0.17);
+}
+.Say_div_1{
+    width: 330px;
+    background-color: #FFFFFF;
+    padding: 32px 28px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 0.2), 0 3px 6px 0 rgba(5, 5, 5, 0.19);
+    border-radius: 30px;
+}
+.nameSaying{
+    margin: 32px 0px 0px;
+}
+.say3{
+    font-size: 18px;
+    color: #111827;
+}
+.say1{
+    color: #111827;
+    font-size: 16px;
+    font-weight: bold;
+}
+.say2{
+    font-size: 14px;
+
+}
+.star{
+    width: 25px;
+}
+.saystar{
+    display: flex;
+    margin-bottom: 40px;
+}
+@media (max-width: 1200px){
+    .Sayh{
+        font-size: 35px;
+    }
+    .Saypara{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .say3{
+        font-size: 15px;
+    }
+    .say1{
+        font-size: 13px;
+    }
+    .say2{
+        font-size: 12px;
+    }
+    .saystar{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1040px){
+    .Sayh{
+        font-size: 30px;
+    }
+    .Saypara{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .say3{
+        font-size: 15px;
+    }
+    .say1{
+        font-size: 13px;
+    }
+    .say2{
+        font-size: 12px;
+    }
+    .saystar{
+        margin-bottom: 30px;
+    }
+    .mainSay{
+        margin: 0px 30px;
+        padding: 28px;
+    }
+}
+
+@media (max-width: 850px){
+    .Sayh{
+        font-size: 30px;
+    }
+    .Saypara{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .say3{
+        font-size: 15px;
+    }
+    .say1{
+        font-size: 13px;
+    }
+    .say2{
+        font-size: 12px;
+    }
+    .saystar{
+        margin-bottom: 30px;
+    }
+    .mainSay{
+        margin: 0px 30px;
+        padding: 28px;
+    }
+    .subSay{
+        margin: 90px 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Say_div_1{
+        width: 270px;
+        padding: 20px 16px;
+        margin: 16px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 780px){
+    .Sayh{
+        font-size: 30px;
+    }
+    .Saypara{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .say3{
+        font-size: 15px;
+    }
+    .say1{
+        font-size: 13px;
+    }
+    .say2{
+        font-size: 12px;
+    }
+    .saystar{
+        margin-bottom: 30px;
+    }
+    .mainSay{
+        margin: 0px 30px;
+        padding: 28px;
+    }
+    .subSay{
+        margin: 90px 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Say_div_1{
+        width: 100%;
+        padding: 20px 16px;
+        margin: 16px;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,131 @@
+.Footer{
+    padding: 96px 0px 40px;
+    margin: 0px 125px;
+}
+.foot{
+      
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 180px;
+}
+.sub_div_logo{
+    width: 380px;
+}
+.footer_p{
+    color: #4B5563;
+    font-size: 16px;
+    margin: 28px 0px 0px;
+}
+.footer_mail{
+    font-size: 16px;
+    color: #16A34A;
+    margin: 4px 0px 0px;
+}
+.footer_phone{
+    font-size: 16px;
+    color: #16A34A;
+    margin: 4px 0px 0px;
+}
+.footer_location{
+    color: #000000;
+    font-size: 17px;
+    margin: 4px 0px 0px;
+}
+.imagesfoot{
+    margin: 36px 0px 0px;
+}
+.footimg{
+    width: 30px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 12px;
+}
+.twiter{
+    margin: 0px 0px 0px 0px;
+}
+.link{
+    margin: 24px 0px 0px;
+}
+.foot_p{
+    font-size: 16px;
+    color: #000000;
+}
+.div2{
+    width: 162px;
+}
+#email{
+    padding: 16px;
+    width: 100%;
+    border: rgb(198, 190, 190) ridge 0.5px;
+    border-radius: 6px;
+}
+.footbtn{
+    border-radius: 5px;
+    margin: 12px 0px 0px ;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 24px;
+}
+.footinput{
+    margin: 24px 0px 0px;
+}
+.div1{
+    padding: 0px 32px 0px 0px;
+}
+.div4{
+    padding: 0px 0px 0px 32px;
+}
+.bottomline{
+    border: rgb(198, 190, 190) ridge 0.06px;
+    margin: 64px 0px 40px;
+}
+.bottom_p{
+    color: #4B5563;
+    font-size: 14px;
+    text-align: center;
+}
+@media (max-width: 1200px){
+    .Footer{
+        padding: 70px 0px 40px;
+        margin: 0px 80px;
+    }
+}
+@media (max-width: 1000px){
+    .Footer{
+        padding: 70px 0px 40px;
+        margin: 0px 60px;
+    }
+    .foot{
+        flex-wrap: wrap;
+    }
+    .div1{
+        width: 100%;
+    }
+}
+@media (max-width: 902px){
+    .Footer{
+        padding: 50px 0px 20px;
+        margin: 0px 10px;
+    }
+    .foot{
+        flex-wrap: wrap;
+    }
+    .div1{
+        width: 100%;
+    }
+    .div4{
+        width: 100%;
+        padding: 16px 0px 0px 0px;
+    }
+    .sub_div_logo .div4 p{
+        font-size: 10px;
+    }
+    .bottom_p{
+        font-size: 12px;
+    }
+    .bottomline{
+        margin: 40px 0px 20px;
+    }
+}

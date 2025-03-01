@@ -1,0 +1,54 @@
+.about_logo{
+    width: 80px;
+    margin: 8px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.about{
+    text-align: center;
+   margin: 48px 128px 16px;
+}
+.about_1{
+    padding: 8px;
+    font-size: 48px;
+    color: #21282E;
+}
+@media (max-width: 1000px){
+    .about_logo{
+        width: 70px;
+        margin: 7px;
+    }
+    .about{
+       margin: 35px 110px 14px;
+    }
+    .about_1{
+        padding: 7px;
+        font-size: 42px;
+    }
+}
+@media (max-width: 870px){
+    .about_logo{
+        width: 70px;
+        margin: 7px;
+    }
+    .about{
+       margin: 30px 90px 14px;
+    }
+    .about_1{
+        padding: 7px;
+        font-size: 35px;
+    }
+}
+@media (max-width: 570px){
+    .about_logo{
+        width: 60px;
+        margin: 7px;
+    }
+    .about{
+       margin: 30px 40px 14px;
+    }
+    .about_1{
+        padding: 7px;
+        font-size: 25px;
+    }
+}
